@@ -25,12 +25,19 @@ public class solution24 {
          */
 
     }
-    public static int length(String s, char ch) {
+    private static int length(String s, char ch) {
         /*
         set up a loop to go through each string
         check the length of s1
         then 2
         return n, counter to determine how many loops went through giving the length
+         */
+    }
+    public static boolean isAnagram(String string1, String string2) {
+        /*
+        take in the strings
+        use built in java language functions
+        
          */
     }
 
