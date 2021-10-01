@@ -4,40 +4,86 @@
  */
 
 package baseline;
+import java.util.Scanner;
 
 public class solution26 {
+//    public static int calculateMonthsUntilPaidOff(double balance, double apr, double payment) {
+//
+//        apr = apr / 365;
+//        return (int) Math.ceil((-1 / 30.0) * Math.log(1 + balance / payment * (1 - Math.pow(1 + apr, 30))) / Math.log(1 + apr));
+//
+//    }
+//
+//    public static void main(String[] args) {
+//
+//
+//        Scanner scanner = new Scanner(System.in);
+//        double balance, apr, payment;
+//
+//        System.out.print("What is your balance? ");
+//        balance = scanner.nextDouble();
+//
+//        System.out.print("What is the APR on the card (as a percent)? ");
+//        apr = scanner.nextDouble();
+//        apr = apr / 100;
+//
+//        System.out.print("What is the monthly payment you can make? ");
+//        payment = scanner.nextDouble();
+//
+//        int months = calculateMonthsUntilPaidOff(balance, apr, payment);
+//        System.out.println("It will take " + months + " months to pay off this card.");
+//    }
+//}
 
-    private static int getBalance(){
+    public static Scanner input = new Scanner(System.in);
+
+    private static double getBalance(){
         //ask user for balance
+        System.out.print("What is your balance? ");
         //scan into b
+        double b = input.nextDouble();
+        return b;
     }
 
-    private static int getAPR(){
+    private static double getAPR(){
         //ask user for APR
+        System.out.print("What is the APR on the card (as a percentage)? ");
         //scan into APR
+        double APR = input.nextDouble();
         //divide APR by 365
+        double f = APR/100;
+        double i = f/365;
         //scan into i
-
+        return i;
     }
 
     private static double getMonthlyPayment(){
         //ask user for monthly payment
+        System.out.print("What is the monthly payment you can make? ");
         //scan into p
+        double p = input.nextDouble();
+        return p;
     }
 
-    private static double calcMonths(int b, int i, double p){
+    private static int calcMonths(double b, double i, double p){
         //do proper calculations with given formula.
+        int months = (int) (Math.ceil((-1 / 30.0) * Math.log(1 + b / p *
+                (1 - Math.pow(1 + i, 30))) / Math.log(1 + i)));
         //scan this value into months
+        return months;
     }
 
     public static void main(String[] args) {
-        int b = getBalance();
-        int i = getBalance();
+        double b = getBalance();
+        double i = getAPR();
         double p = getMonthlyPayment();
 
-        calcMonths(b, i, p);
+        int months = calcMonths(b, i, p);
 
-        //print months to pay off
+//print months to pay off
+        System.out.printf("It will take you %d months to pay off this card.", months);
+
+
     }
 
 
