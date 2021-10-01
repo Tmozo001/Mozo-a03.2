@@ -49,17 +49,17 @@ public class solution25 {
 //if all criteria is met (special, digit, upper, lower)
         if (hasDigit && hasLower || hasUpper && specialChar
                 && (n >= 8))
-            System.out.printf("The password \'%s\' is a very strong", pass);
+            System.out.printf("The password \'%s\' is a very strong password.", pass);
 //if either upper or lower or special
         else if ((hasLower || hasUpper || specialChar)
                 && (n >= 8))
-            System.out.printf("The password \'%s\' is a strong", pass);
+            System.out.printf("The password \'%s\' is a strong password.", pass);
 //if only has upper and lower
         else if(hasLower || hasUpper && (n < 8))
-            System.out.printf("The password \'%s\' is a weak", pass);
+            System.out.printf("The password \'%s\' is a weak password.", pass);
 //else if only digits
         else
-            System.out.printf("The password \'%s\' is a very weak", pass);
+            System.out.printf("The password \'%s\' is a very weak password.", pass);
 
         // check if pass has special characters
         //check if its a number
