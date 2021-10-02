@@ -35,7 +35,7 @@ public class solution31 {
         //loop through each iteration of intensity increasing 5% each time
         for(int intensity = 50 ; intensity<=95 ; intensity+=5){
             int TargetHeartRate = (int) ((((220 - age) - RP) * (intensity/100.0)) + RP);
-            System.out.printf("%d%%\t\t| %d bpm\n", intensity, TargetHeartRate);
+            System.out.printf("%d%%\t\t| %d bpm%n", intensity, TargetHeartRate);
         }
         //print ("%d%%\t\t| %f bpm", intensity, TargetHeartRate)
 
