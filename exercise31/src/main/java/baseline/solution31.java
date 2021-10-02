@@ -7,4 +7,12 @@ import java.util.*;
 
 public class solution31 {
     Scanner input = new Scanner(System.in);
+
+    private static int getRP(){
+
+    }
+    private static int getAge(){
+
+    }
+    private 
 }
