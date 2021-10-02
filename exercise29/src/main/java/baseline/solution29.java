@@ -1,31 +1,44 @@
 package baseline;
-import java.util.Scanner;
+import java.util.*;
 
 public class solution29 {
     public static Scanner input = new Scanner(System.in);
 
-    private static String getRate(){
-        //ask user for rate
-        //assign to variable rate
-        //return rate
-    }
+    private static void inputValidity() {
+        boolean flag=false;
+        while(true)
+        {
+            try
+            {
+                System.out.print("What is the rate of return? ");
+                int rate = Integer.parseInt(input.next());
 
-    private static boolean inputValidity(){
-        //check if rate is an invalid number
-        //check for division error
-        //call calcRate to get the rate
-    }
+                System.out.println("It will take "+(72/rate)+" years to double your initial investment.");
+                flag=true;
+            }
+            catch(NumberFormatException e) //check if input is in the correct number format
+            {
+                System.out.println("Sorry. That's not a valid input");
+            }
+            catch(ArithmeticException e) //check if divided by 0
+            {
+                System.out.println("Sorry. That's not a valid input");
+            }
+            if(flag) //if exception not raised
+            {
+                break;
+            }
 
-    private static double calcRate(){
-        //take in the rate inputed after verification
-        //   72/rate
-        //print rate with appropriate output
+        }
     }
 
     public static void main(String[] args) {
-        //call getRate
         //call input validity
+        inputValidity();
     }
-
-
 }
+
+
+
+
+
