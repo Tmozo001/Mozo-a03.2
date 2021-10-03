@@ -28,7 +28,7 @@ public class solution33 {
         //ask user for their question
         System.out.print("What's your question?\n");
         String doesNotMatter = input.nextLine();
-        
+
         //call magic ball method
         magicBall();
 
