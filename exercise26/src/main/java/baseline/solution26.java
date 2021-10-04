@@ -38,7 +38,7 @@ public class solution26 {
         return p;
     }
 
-    private static int calcMonths(double b, double i, double p){
+    public static int calcMonths(double b, double i, double p){
         //do proper calculations with given formula.
         int months = (int) (Math.ceil((-1 / 30.0) * Math.log(1 + b / p *
                 (1 - Math.pow(1 + i, 30))) / Math.log(1 + i)));

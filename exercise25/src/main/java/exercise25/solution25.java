@@ -18,7 +18,7 @@ public class solution25 {
         //return pass
         return pass;
     }
-    private static void passwordValidator(String pass){
+    public static void passwordValidator(String pass){
 
         // use a variable to access java built in function length
         int n = pass.length();
