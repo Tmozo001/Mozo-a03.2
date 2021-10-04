@@ -4,7 +4,7 @@ import java.util.*;
 public class solution29 {
     public static Scanner input = new Scanner(System.in);
 
-    private static void inputValidity() {
+    public static void inputValidity() {
         boolean flag=false;
         while(true)
         {

@@ -9,7 +9,7 @@ import java.util.*;
 public class solution30 {
     public static Scanner input = new Scanner(System.in);
 
-    private static void buildTable(){
+    public static void buildTable(){
         //run a loop increasing i from 1 to 12
         for(int i=1 ; i<=12 ; i++){
             //nested loop increases j to 12

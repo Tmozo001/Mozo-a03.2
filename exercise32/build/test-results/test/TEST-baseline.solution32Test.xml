@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="baseline.solution32Test" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-10-04T02:47:54" hostname="DESKTOP-A2DVGFU" time="0.015">
+  <properties/>
+  <testcase name="guessTheNumber()" classname="baseline.solution32Test" time="0.012"/>
+  <testcase name="dif1()" classname="baseline.solution32Test" time="0.001"/>
+  <testcase name="dif2()" classname="baseline.solution32Test" time="0.001"/>
+  <testcase name="dif3()" classname="baseline.solution32Test" time="0.001"/>
+  <testcase name="letTheGameBegin()" classname="baseline.solution32Test" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

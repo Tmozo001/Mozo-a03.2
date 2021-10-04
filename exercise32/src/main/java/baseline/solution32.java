@@ -16,7 +16,7 @@ public class solution32 {
         return difficulty;
     }
 
-    private static int getRandomNum(int difficulty) {
+    public static int getRandomNum(int difficulty) {
 
         //based on what difficulty
         //use built-in java function to generate randNum in that range.
@@ -35,7 +35,7 @@ public class solution32 {
 
     }
 
-    private static void letTheGameBegin(int randomNum) {
+    public static void letTheGameBegin(int randomNum) {
         //prompt the user to enter a number
         int guess;
         int total = 0;
@@ -56,7 +56,7 @@ public class solution32 {
 
     }
 
-    private static void GuessTheNumber() {
+    public static void GuessTheNumber() {
         System.out.print("Let's play Guess the Number!\n\n");
         // call get difficulty
         int difficulty = getDifficulty();
@@ -76,7 +76,8 @@ public class solution32 {
     }
 
         public static void main (String[]args){
-            GuessTheNumber();
+
+        GuessTheNumber();
         }
     }
 

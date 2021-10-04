@@ -39,7 +39,7 @@ public class solution27 {
 
     }
 
-    private static void validateInputs(String firstName, String lastName, String ZIP, String UID){
+    public static void validateInputs(String firstName, String lastName, String ZIP, String UID){
         //takes in the validation of each case and verifies.
         boolean first = validateFirstName(firstName);
         boolean last = validateLastName(lastName);

@@ -1,0 +1,14 @@
+
+Z
+java:S2147"DCombine this catch with the one at line 19, which has the same body.(½¬ó¥
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ÿ€éÇ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ŞÔú
+M	java:S106"9Replace this use of System.out or System.err by a logger.(¡›Â
+
+M	java:S106"9Replace this use of System.out or System.err by a logger.(¡›Â
+
+g
+java:S1104"QMake input a static final constant or non-public and provide accessors if needed.(ÒÔä¸
+A
+java:S1444"+Make this "public static input" field final(ÒÔä¸
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¼ØÆúÿÿÿÿ

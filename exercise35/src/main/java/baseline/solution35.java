@@ -25,7 +25,7 @@ public class solution35 {
         return nameLottery;
     }
 
-    private static int randIndex(ArrayList nameLottery){
+    public static int randIndex(ArrayList nameLottery){
         // create random index and pick from the size of the array
         Random name = new Random();
 

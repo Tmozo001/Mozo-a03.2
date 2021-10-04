@@ -8,7 +8,7 @@ import java.util.*;
 public class solution33 {
     public static Scanner input = new Scanner(System.in);
 
-    private static void magicBall(){
+    public static void magicBall(){
         //create string array of randomResponses
         String[] randomResponse = {"Yes.", "No.", "Maybe.", "Ask again later.", "I don't know, figure it out yourself.", "Bye!"};
         Random response = new Random();

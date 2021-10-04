@@ -10,7 +10,7 @@ S	java:S106*"9Replace this use of System.out or System.err by a logger.(÷ìÿÿÿ
 N	java:S106/"9Replace this use of System.out or System.err by a logger.(¬¾’³
 S	java:S1062"9Replace this use of System.out or System.err by a logger.(ÍµÛ±ûÿÿÿÿ
 S	java:S1065"9Replace this use of System.out or System.err by a logger.(°ÍãŒıÿÿÿÿ
-c	java:S100;"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò—Ü
+h	java:S100;"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼í‡ğıÿÿÿÿ
 1
 java:S3626J"Remove this redundant jump.(ûÁİ…
 S	java:S106<"9Replace this use of System.out or System.err by a logger.(íÏÚÓÿÿÿÿÿ

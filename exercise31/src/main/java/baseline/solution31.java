@@ -30,7 +30,7 @@ public class solution31 {
         return age;
     }
 
-    private static void calcTargetHeartRate(int RP, int age){
+    public static void calcTargetHeartRate(int RP, int age){
         //take in RP and age
         //loop through each iteration of intensity increasing 5% each time
         for(int intensity = 50 ; intensity<=95 ; intensity+=5){
