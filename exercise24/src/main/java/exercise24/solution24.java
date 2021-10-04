@@ -25,7 +25,7 @@ public class solution24 {
         String string2 = input.next();
         return string2;
     }
-    private static int length(String s, char ch) {
+    public static int length(String s, char ch) {
         int n = 0;
         //set up a loop to go through each string
         //check the length of s1 & s2
@@ -38,7 +38,7 @@ public class solution24 {
         return n;
 
     }
-    private static boolean isAnagram(String string1, String string2) {
+    public static boolean isAnagram(String string1, String string2) {
         //take in the strings
         char ch;
         //use built in java language functions

@@ -1,0 +1,6 @@
+
+Q
+java:S28647"4Iterate over the "entrySet" instead of the "keySet".(íº€ë8›ƒ¤ÆÄ/
+U	java:S106:"9Replace this use of System.out or System.err by a logger.(šæ‡ª8œƒ¤ÆÄ/
+7
+java:S1220""Move this file to a named package.8œƒ¤ÆÄ/
